@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animesXP - Assistir animes online PT-BR!</title>
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="window-overlay">
+        <div class="sidenav">
+            <div class="sidenav__top">
+                <span class="sidenav__logo">animesXP</span>
+                <div class="sidenav__close-button">
+                    <div class="close-button__line">
+                        <div class="close-button__line"></div>
+                    </div>
+                </div>
+            </div>
+            <nav class="sidenav__nav">
+                <div class="sidenav__menu">
+                    <ul class="sidenav-menu__list">
+                        <li class="sidenav-menu__item">
+                            <a href="./index.html" class="sidenav-menu__link">Home</a>
+                        </li>
+                        <li class="sidenav-menu__item">
+                            <a href="./anime-list.html" class="sidenav-menu__link">Animes</a>
+                        </li>
+                        <li class="sidenav-menu__item">
+                            <a href="./anime-list.html" class="sidenav-menu__link">Cartoons</a>
+                        </li>
+                        <li class="sidenav-menu__item">
+                            <a href="./contact.html" class="sidenav-menu__link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <form action="./search-result.html" class="sidenav__search">
+                    <input type="text" class="sidenav-search__input" placeholder="Pesquisar...">
+                    <button class="sidenav-search__button">
+                        <ion-icon name="search" class="sidenav-search__icon"></ion-icon>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__mobile-button">
+                <span class="mobile-button__line"></span>
+                <span class="mobile-button__line"></span>
+                <span class="mobile-button__line"></span>
+            </div>
+            <a href="./index.html" class="header__logo">animesXP</a>
+            <nav class="header__nav">
+                <div class="header__menu">
+                    <ul class="header-menu__list">
+                        <li class="header-menu__item">
+                            <a href="./index.html" class="header-menu__link">Home</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="./anime-list.html" class="header-menu__link">Animes</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="./anime-list.html" class="header-menu__link">Cartoons</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a href="./contact.html" class="header-menu__link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <form action="./search-result.html" class="header__search">
+                    <input type="text" class="header-search__input" placeholder="Pesquisar...">
+                    <button type="submit" class="header-search__button">
+                        <ion-icon name="search" class="header-search__icon"></ion-icon>
+                    </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumbs">
+        <p class="breadcrumbs__text"><a href="./index.html" class="breadcrumbs__link">Home</a> <span class="breadcrumbs__arrow">»</span> Animes</p>
+    </div>
+    <main class="main">
+        <section class="section letters">
+            <div class="letters-box">
+                <ul class="letters-box__list">
+                    <li class="letters-box__item">
+                        <span class="letters-box__link box--active">*</span>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">#</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">A</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">B</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">C</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">D</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">E</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">F</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">G</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">H</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">I</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">J</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">K</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">L</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">M</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">N</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">O</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">P</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">Q</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">R</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">S</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">T</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">U</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">V</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">W</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">X</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">Y</a>
+                    </li>
+                    <li class="letters-box__item">
+                        <a href="./anime-list.html" class="letters-box__link">Z</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="wrapper">
+            <aside class="aside filter">
+                <h1 class="aside__title">#FILTRAR</h1>
+                <div class="aside__box">
+                    <div class="filter__item">
+                        <div class="filter__heading collapsible">
+                            <h1 class="filter__title">TIPO</h1>
+                            <span class="filter__chevron --toggle-down"></span>
+                        </div>
+                        <div class="filter__options">
+                            <label class="label-checkbox">Anime
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Filme
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Dorama
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Cartoon
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Live Action
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter__item">
+                        <div class="filter__heading collapsible">
+                            <h1 class="filter__title">IDIOMA</h1>
+                            <span class="filter__chevron --toggle-down"></span>
+                        </div>
+                        <div class="filter__options">
+                            <label class="label-checkbox">Dublado
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Legendado
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter__item">
+                        <div class="filter__heading collapsible">
+                            <h1 class="filter__title">GÊNERO</h1>
+                            <span class="filter__chevron --toggle-down"></span>
+                        </div>
+                        <div class="filter__options">
+                            <label class="label-checkbox">Ação
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Artes Marciais
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Aventura
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Comédia
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Demônios
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Drama
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Ecchi
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Espaço
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Esporte
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Fantasia
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Harém
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Horror
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Jogos
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Josei
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Magia
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Mecha
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Mistério
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Militar
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Musical
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Paródia
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Psicológico
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Romance
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Sci-Fi
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Seinen
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Shoujo
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Shoujo-Ai
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Shounen
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Shounen-Ai
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Slice Of Life
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Sobrenatural
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Suspense
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Superpoder
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Vampiros
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Vida Escolar
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter__item">
+                        <div class="filter__heading collapsible">
+                            <h1 class="filter__title">STATUS</h1>
+                            <span class="filter__chevron --toggle-down"></span>
+                        </div>
+                        <div class="filter__options">
+                            <label class="label-checkbox">Completo
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                            <label class="label-checkbox">Em lançamento
+                                <input type="checkbox">
+                                <span class="checkbox"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter__item">
+                        <div class="filter__heading collapsible">
+                            <h1 class="filter__title">ORDENAR</h1>
+                            <span class="filter__chevron --toggle-down"></span>
+                        </div>
+                        <div class="filter__options">
+                            <label class="label-radio">Título de A-Z
+                                <input type="radio" name="radio">
+                                <span class="radio"></span>
+                            </label>
+                            <label class="label-radio">Visualizações
+                                <input type="radio" name="radio">
+                                <span class="radio"></span>
+                            </label>
+                            <label class="label-radio">Recentes
+                                <input type="radio" name="radio">
+                                <span class="radio"></span>
+                            </label>
+                            <label class="label-radio">Recem Adicionados
+                                <input type="radio" name="radio">
+                                <span class="radio"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <button type="button" class="button" id="load-more">Aplicar filtro</button>
+                </div>
+            </aside>
+            <section class="section anime-list">
+                <h1 class="section__title">#LISTA DE ANIMES</h1>
+                <div class="anime-list__item">
+                    <div class="anime-list__cover">
+                        <a href="./single-anime.html">
+                            <img src="../animesXP/assets/img/covers/naruto-shippuden.jpg" class="anime-list__img">
+                        </a>
+                    </div>
+                    <div class="anime-list__info">
+                        <a href="./single-anime.html" class="anime-list__title">Naruto Shippuden</a>
+                        <span class="anime__language-box">LEGENDADO</span>
+                        <ul class="anime-genres__list">
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AÇÃO</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AVENTURA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">COMÉDIA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">FANTASIA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="anime-list__item">
+                    <div class="anime-list__cover">
+                        <a href="./single-anime.html">
+                            <img src="../animesXP/assets/img/covers/one-piece.jpg" class="anime-list__img">
+                        </a>
+                    </div>
+                    <div class="anime-list__info">
+                        <a href="./single-anime.html" class="anime-list__title">One Piece</a>
+                        <span class="anime__language-box">LEGENDADO</span>
+                        <ul class="anime-genres__list">
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AÇÃO</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AVENTURA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">COMÉDIA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">DRAMA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">FANTASIA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="anime-list__item">
+                    <div class="anime-list__cover">
+                        <a href="./single-anime.html">
+                            <img src="../animesXP/assets/img/covers/tower-of-god.jpg" class="anime-list__img">
+                        </a>
+                    </div>
+                    <div class="anime-list__info">
+                        <a href="./single-anime.html" class="anime-list__title">Tower Of God</a>
+                        <span class="anime__language-box">LEGENDADO</span>
+                        <ul class="anime-genres__list">
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AÇÃO</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AVENTURA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">DRAMA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">FANTASIA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">MISTÉRIO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="anime-list__item">
+                    <div class="anime-list__cover">
+                        <a href="./single-anime.html">
+                            <img src="../animesXP/assets/img/covers/black-clover.jpg" class="anime-list__img">
+                        </a>
+                    </div>
+                    <div class="anime-list__info">
+                        <a href="./single-anime.html" class="anime-list__title">Black Clover</a>
+                        <span class="anime__language-box">LEGENDADO</span>
+                        <ul class="anime-genres__list">
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AÇÃO</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">COMÉDIA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">FANTASIA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="anime-list__item">
+                    <div class="anime-list__cover">
+                        <a href="./single-anime.html">
+                            <img src="../animesXP/assets/img/covers/naruto-shippuden.jpg" class="anime-list__img">
+                        </a>
+                    </div>
+                    <div class="anime-list__info">
+                        <a href="./single-anime.html" class="anime-list__title">Naruto Shippuden</a>
+                        <span class="anime__language-box">LEGENDADO</span>
+                        <ul class="anime-genres__list">
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AÇÃO</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AVENTURA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">COMÉDIA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">FANTASIA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="anime-list__item">
+                    <div class="anime-list__cover">
+                        <a href="./single-anime.html">
+                            <img src="../animesXP/assets/img/covers/one-piece.jpg" class="anime-list__img">
+                        </a>
+                    </div>
+                    <div class="anime-list__info">
+                        <a href="./single-anime.html" class="anime-list__title">One Piece</a>
+                        <span class="anime__language-box">LEGENDADO</span>
+                        <ul class="anime-genres__list">
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AÇÃO</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AVENTURA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">COMÉDIA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">DRAMA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">FANTASIA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="anime-list__item">
+                    <div class="anime-list__cover">
+                        <a href="./single-anime.html">
+                            <img src="../animesXP/assets/img/covers/tower-of-god.jpg" class="anime-list__img">
+                        </a>
+                    </div>
+                    <div class="anime-list__info">
+                        <a href="./single-anime.html" class="anime-list__title">Tower Of God</a>
+                        <span class="anime__language-box">LEGENDADO</span>
+                        <ul class="anime-genres__list">
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AÇÃO</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AVENTURA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">DRAMA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">FANTASIA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">MISTÉRIO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="anime-list__item">
+                    <div class="anime-list__cover">
+                        <a href="./single-anime.html">
+                            <img src="../animesXP/assets/img/covers/black-clover.jpg" class="anime-list__img">
+                        </a>
+                    </div>
+                    <div class="anime-list__info">
+                        <a href="./single-anime.html" class="anime-list__title">Black Clover</a>
+                        <span class="anime__language-box">LEGENDADO</span>
+                        <ul class="anime-genres__list">
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">AÇÃO</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">COMÉDIA</a>
+                            </li>
+                            <li class="anime-genres__item">
+                                <a href="./anime-list.html" class="anime-genres__link">FANTASIA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="pagination">
+                    <div class="pagination__container">
+                        <ul class="pagination__list">
+                            <li class="pagination__item">
+                                <span class="pagination__link box--false">«<span>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="./anime-list.html" class="pagination__link box--active">1</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="./anime-list.html" class="pagination__link">2</a>
+                            </li>
+                            <li class="pagination__item">
+                                <span class="pagination__link box--false">...</span>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="./anime-list.html" class="pagination__link">118</a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="./anime-list.html" class="pagination__link">»</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__top">
+                <a href="./index.html" class="footer__logo">animesXP</a>
+                <span class="footer__division"></span>
+                <div class="footer__socials">
+                    <ul class="socials__list">
+                        <li class="socials__item">
+                            <a href="#" class="socials__link background--discord"><i class="fa-brands fa-discord"></i></a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link background--facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="socials__item">
+                            <a href="#" class="socials__link background--twitter"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copy">
+                <p class="copy__text"><a href="./index.html" class="copy__link">AnimesXP</a> © 2022 - Made by: <a href="https://linktr.ee/eubrunocoelho" class="copy__link" target="_blank">Bruno Coelho</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/javascript/swiper.js"></script>
+    <script src="./assets/javascript/scripts.js"></script>
+</body>
+</html>
